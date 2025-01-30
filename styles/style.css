@@ -119,6 +119,7 @@ body{
     background-color: rgba(245, 245, 245, 1);
 }
 
+
 /* Shared styles */
 
 /* Buttons styles */
@@ -140,6 +141,15 @@ body{
     background-color: #006A50;
     border-radius: 8px;
     border: none;
+}
+
+.learn-more-btn{
+  color: white;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 11px 20px;
+  border-radius: 8px;
+  border: none;
 }
 
 
@@ -177,23 +187,89 @@ nav li{
 }
 
 .banner-info{
-    width: 622px;
+  width: 622px;
 }
 
 .banner-subtitle{
-    font-size: 24px;
-    font-weight: 500;
-    color: rgba(14, 14, 14, 0.5);
+  font-size: 24px;
+  font-weight: 500;
+  color: rgba(14, 14, 14, 0.5);
 }
 
 .banner-moto{
-    font-size: 56px;
-    font-weight: 700;
-    color: #0E0E0E;
-    margin: 16px auto 24px;
+  font-size: 56px;
+  font-weight: 700;
+  color: #0E0E0E;
+  margin: 16px auto 24px;
 }
 
 .banner-image{
-    height: 400px;
-    width: 474px;
+  height: 400px;
+  width: 474px;
 }
+
+
+/* vision styles */
+.vision-title{
+  font-size: 40px;
+  font-weight: 700;
+  color: #0E0E0E;
+  margin-top: 80px;
+}
+
+.vision-description{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.vision-card{
+  max-width: 410px;
+  padding: 32px 32px;
+  border-radius: 16px;
+}
+
+.card-title{
+  font-size: 20px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 24px auto 12px;
+}
+
+.card-description{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 24px;
+}
+
+.blue-card{
+  background-color: rgba(84, 144, 245, 0.2);
+}
+
+.blue-btn{
+  background-color: #5490F5;
+}
+
+.green-card{
+  background-color: rgba(198, 228, 214, 1);
+}
+
+.green-btn{
+  background-color: #09A15C;
+}
+
+.orange-card{
+  background-color: rgba(247, 235, 207, 1);
+}
+
+.orange-btn{
+  background-color: #FFC239;
+}
+
+.vision-card-container{
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 32px 0px;
+}
+
+
