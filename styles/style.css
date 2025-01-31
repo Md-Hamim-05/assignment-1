@@ -116,7 +116,7 @@ body{
     /* padding-left: 160px;
     padding-right: 160px; */
     padding: 0 160px 0;
-    background-color: rgba(245, 245, 245, 1);
+    background-color: rgba(241, 241, 243, 1);
 }
 
 
@@ -150,6 +150,16 @@ body{
   padding: 11px 20px;
   border-radius: 8px;
   border: none;
+}
+
+.read-more-btn{
+  color: white;
+  padding: 13px 26px;
+  font-size: 18px;
+  font-weight: 600;
+  background-color: rgba(0, 106, 80, 1);
+  border: none;
+  border-radius: 8px;
 }
 
 
@@ -271,5 +281,95 @@ nav li{
   gap: 24px;
   margin: 32px 0px;
 }
+
+
+/* quotes section styles */
+.quote-container{
+  padding: 48px 24px;
+  background-image: url(../B11A1--assignment-1/assets/quote-bg.png);
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-color: rgba(255, 255, 255, 1);
+  border: 1px rgba(14, 14, 14, 0.15) solid;
+  border-radius: 16px;
+}
+
+.cite{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.8);
+}
+
+.citer{
+  font-size: 20px;
+  font-weight: 600;
+  color: rgba(14, 14, 14, 0.8);
+  margin: 12px 0 4px;
+}
+
+.citer-identity{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.6);
+}
+
+
+/* News styles */
+.recent-news{
+  margin: 80px 0px;
+}
+
+.recent-news .news-type{
+  font-size: 40px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 1);
+}
+
+.recent-news .news-summary{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin: 24px 0 32px;
+}
+
+.news-card{
+  padding: 48px 48px;
+  background-color: rgba(255, 255, 255, 1);
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.news-photo img{
+  border-radius: 24px;
+}
+
+.recent-news .news-card .news-title{
+  font-size: 32px;
+  font-weight: 700;
+  color: rgba(14, 14, 14, 0.8);
+  margin-bottom: 12px;
+}
+
+.news-description .date-time{
+  display: flex;
+  gap: 12px;
+  margin: 12px 0;
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+}
+
+.news-description .detailed-news{
+  font-size: 16px;
+  color: rgba(14, 14, 14, 0.7);
+  margin-bottom: 32px;
+}
+
+.news-card-container{
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+
 
 
